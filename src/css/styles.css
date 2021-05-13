@@ -190,7 +190,7 @@ section.app{
     display: flex;
     padding: 3%;
     gap: 1%;
-    background: url(/images/bg-shorten-desktop.svg);
+    background: url(/src/images/bg-shorten-desktop.svg);
     background-color: hsl(255, 11%, 22%);
     justify-content: space-between;
     border-radius: 5px;
@@ -325,7 +325,7 @@ section.app{
 /**********************FOOTER STYLE************************/
 .top-footer-parent{
     padding: 4% 14% 4%;
-    background: url(/images/bg-boost-desktop.svg);
+    background: url(/src/images/bg-boost-desktop.svg);
     background-color: hsl(255, 11%, 22%);
 }
 

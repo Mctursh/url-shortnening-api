@@ -6,16 +6,16 @@ This is a solution to the [Shortly URL shortening API Challenge challenge on Fro
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  <!-- - [Screenshot](#screenshot) -->
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  <!-- - [Useful resources](#useful-resources) -->
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+<!-- **Note: Delete this note and update the table of contents based on what sections you keep.** -->
 
 ## Overview
 
@@ -30,7 +30,7 @@ Users should be able to:
 - Receive an error message when the `form` is submitted if:
   - The `input` field is empty
 
-### Screenshot
+<!-- ### Screenshot -->
 
 <!-- ![](./screenshot.jpg)
 
@@ -40,13 +40,13 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above. -->
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+<!-- **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.** -->
 
 ### Links
 
 <!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
 
-- Live Site URL: [Shortly](https://mctursh.github.io/url-shortening-app/)
+- Live Site URL: [Shortly](https://mctursh.github.io/url-shortnening-api/)
 
 ## My process
 
@@ -60,7 +60,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - [Google fonts](https://fonts.google.com/) - For fonts
 - [Animate.css](https://animate.style/) - For navbar animation
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+<!-- **Note: These are just examples. Delete this note and replace the list above with your own choices** -->
 
 ### What I learned
 
@@ -106,15 +106,15 @@ async function shortenLink() {
 
 <!-- If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more. -->
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+<!-- **Note: Delete this note and the content within this section and replace with your own learnings.** -->
 
 ### Continued development
 
 I would continue to work on a better way of dynamically resizing svg.
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+<!-- Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+<!-- **Note: Delete this note and the content within this section and replace with your own plans for continued development.** -->
 
 <!-- ### Useful resources
 
@@ -128,6 +128,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 - Frontend Mentor - [@Mctursh](https://www.frontendmentor.io/profile/mctursh)
 - Twitter - [@mctursh](https://www.twitter.com/mctursh)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+<!-- **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.** -->
