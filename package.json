@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "An api that basically helps you shorten a lengthy url",
   "main": "index.js",
-  "homepage": "http://mctursh.github.io/url-shortening-app",
+  "homepage": "http://mctursh.github.io/url-shortnening-api",
   "scripts": {
     "start": "react-scripts start",
     "dev": "parcel public/index.html -p 3000",
