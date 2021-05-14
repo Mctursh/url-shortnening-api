@@ -2,7 +2,7 @@ import React from "react"
 import Logo from "./Svg/Logo"
 import Button from "./Button"
 
-const TopBar = ({ changeState, width }) => {
+const TopBar = ({ changeState, width, clickedState }) => {
     return (
         <div className="nav-container">
         <h1 className="flex">
@@ -27,7 +27,7 @@ const TopBar = ({ changeState, width }) => {
           <Button value="Sign Up" style="round-edge" anchorStyle="small"/>
         </div>        
         </div>
-        <Button value="☰" changeState={changeState} style={width < 601 ? "nav-btn" : "none"} />
+        <Button value={clickedState ? <i class="fas fa-times"></i> :"☰"} changeState={changeState} style={width < 601 ? "nav-btn" : "none"} />
       </div>
     )
 }

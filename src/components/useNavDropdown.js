@@ -29,7 +29,7 @@ const DropDown = ({ initialState }) => {
             </div>
         )
     }
-    return [Dropdown, changeState, setDisplayState]
+    return [Dropdown, changeState, setDisplayState, clickedState]
 }
 
 

@@ -9,6 +9,7 @@ const FormInput = () => {
     const [Clicked, setClicked] = useState(false)
     const [Shortened, setShortened] = useState([])
     const [ Cookies, setCookie ] = useCookies(["short"])
+    const [Spinner, setSpinner] = useState(false)
 
     const handleChange = (e) => {
         setLinkValue(() => {
@@ -24,6 +25,7 @@ const FormInput = () => {
 
     async function shortenLink() {        
         if (Clicked) {
+            setSpinner(true)
             setIsPresent(false)
             const raw = await fetch(`https://api.shrtco.de/v2/shorten?url=${LinkValue}`)
             const res = await raw.json();
@@ -31,7 +33,8 @@ const FormInput = () => {
             setShortened((prev) => {
                 const newList = [...prev]
                 newList.unshift({ code, short_link, original_link})
-                setCookie('short', { history: [...newList] } , { path: '/', maxAge: 2592000 })                
+                setCookie('short', { history: [...newList] } , { path: '/', maxAge: 2592000 })
+                setSpinner(false)              
                 return newList
             })
         } else {
@@ -47,7 +50,7 @@ const FormInput = () => {
         <div className="mid-section-container">
             <form className="query-form" data-no-link-input={IsPresent ? "Please add a link" : ""}>
                 <input id={IsPresent ? "no-link-input" : ""}  onChange={handleChange} value={LinkValue} type="text" placeholder="Shorten a link here..." />
-                <Button value="Shorten it!" style="square-edge" changeState={shortenLink} anchorStyle="small-square"/>
+                <Button value={Spinner ? "" : "Shorten it!"} style="square-edge " changeState={shortenLink} anchorStyle={Spinner ? "lds-dual-ring" : "small-square"}/>
             </form>    
             <div className="history-list">
                 {Shortened.length > 0 && Shortened.map(({ code, short_link, original_link }) => <PrevLink key={code} shortened={short_link} original={original_link} />)}

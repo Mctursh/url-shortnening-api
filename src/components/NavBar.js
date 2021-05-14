@@ -5,7 +5,7 @@ import useNavDropDown from "./useNavDropdown"
 const NavBar = () => {
 
   const [width, setWidth] = useState(window.innerWidth)
-  const [DropDown, changeState, setDisplayState] = useNavDropDown(false)
+  const [DropDown, changeState, setDisplayState, clickedState] = useNavDropDown(false)
 
   useEffect(() => {
     window.addEventListener("resize", function(e) {
@@ -23,7 +23,7 @@ const NavBar = () => {
 
   return (
     <nav className="app">
-      <TopBar width={width} changeState={changeState} />
+      <TopBar clickedState={clickedState}  width={width} changeState={changeState} />
       {width < 601 ? <DropDown /> : ""}          
     </nav>    
   );

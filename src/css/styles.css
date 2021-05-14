@@ -376,6 +376,38 @@ section.app{
 .zero{
     height: 0px;
 }
+
+/**************SPINNER STYLE**********************/
+
+.lds-dual-ring {
+    width: 80px;
+    height: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
 /*************************MEDIA QUERIES*********************/
 
 
@@ -495,7 +527,7 @@ section.app{
     }
     .header-container{
         justify-content: center;
-        margin-bottom: 25%;
+        margin: 19% 0 25%;
     }
     .header-container svg, .advanced hr{
         display: none;
@@ -570,6 +602,9 @@ section.app{
 
     .query-form::after {
         bottom: 44px;
+    }
+    .history-list{
+        max-height: 19em;
     }
     .history-list .flex.spc-btw{
         flex-direction: column;
