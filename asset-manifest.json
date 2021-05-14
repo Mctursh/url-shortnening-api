@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/url-shortnening-api/static/css/main.2d59a8f7.chunk.css",
+    "main.css": "/url-shortnening-api/static/css/main.3a1d46b3.chunk.css",
     "main.js": "/url-shortnening-api/static/js/main.a8c203fe.chunk.js",
     "main.js.map": "/url-shortnening-api/static/js/main.a8c203fe.chunk.js.map",
     "runtime-main.js": "/url-shortnening-api/static/js/runtime-main.eff0e96a.js",
@@ -8,14 +8,14 @@
     "static/js/2.9e5fe0b9.chunk.js": "/url-shortnening-api/static/js/2.9e5fe0b9.chunk.js",
     "static/js/2.9e5fe0b9.chunk.js.map": "/url-shortnening-api/static/js/2.9e5fe0b9.chunk.js.map",
     "index.html": "/url-shortnening-api/index.html",
-    "static/css/main.2d59a8f7.chunk.css.map": "/url-shortnening-api/static/css/main.2d59a8f7.chunk.css.map",
+    "static/css/main.3a1d46b3.chunk.css.map": "/url-shortnening-api/static/css/main.3a1d46b3.chunk.css.map",
     "static/js/2.9e5fe0b9.chunk.js.LICENSE.txt": "/url-shortnening-api/static/js/2.9e5fe0b9.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/url-shortnening-api/static/media/bg-shorten-desktop.0d9742f4.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.eff0e96a.js",
     "static/js/2.9e5fe0b9.chunk.js",
-    "static/css/main.2d59a8f7.chunk.css",
+    "static/css/main.3a1d46b3.chunk.css",
     "static/js/main.a8c203fe.chunk.js"
   ]
 }
