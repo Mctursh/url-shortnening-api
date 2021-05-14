@@ -27,7 +27,8 @@ button{
     serif;
 }
 button.round-edge:hover, button.square-edge:hover, .round-edge .small:hover{
-    background-color: hsl(180, 66%, 70%);
+    /* background-color: hsl(180, 66%, 70%); */
+    opacity: 0.7;
 }
 
 .cyan{
@@ -584,13 +585,12 @@ section.app{
 @media only screen and (max-width: 600px) {
     .query-form {
         flex-direction: column;
-        gap: 1.5em;
+        gap: 1em;
     }
 
     .query-form input {
         width: 98%;
-        font-size: 1.2em;
-        height: 2.2em;
+        font-size: 0.7em;
     }
 
     .square-edge {
@@ -601,7 +601,7 @@ section.app{
     }
 
     .query-form::after {
-        bottom: 44px;
+        bottom: 53px;
     }
     .history-list{
         max-height: 19em;
